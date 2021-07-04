@@ -13,7 +13,6 @@ vector<int> solution(vector<int> numbers)
         }
     }
     sort(answer.begin(),answer.end());
-    //answer.erase(unique(answer.begin(),answer.end()),answer.end());
     answer.erase(unique(answer.begin(),answer.end()),answer.end());
     return answer;
 }
