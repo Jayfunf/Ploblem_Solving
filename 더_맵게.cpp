@@ -10,7 +10,7 @@ int solution(vector<int> scoville, int K)
 {
     int answer = 0;
     int temp1, temp2;
-    priority_queue<int,vector<int>,greater<int>> sco;
+    priority_queue<int,vector<int>,greater<int>> sco; //우선 순위 큐 사용
     for(int i = 0; i< scoville.size();i++){
         sco.push(scoville[i]);
     }
